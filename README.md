@@ -1,7 +1,7 @@
 # angsana-abadi-backend-assignment
 Tugas Back End (notes) Kelompok Angsana Abadi
 
-Anggota:
+**Anggota:**
 - Izzeldin Rayyan Bastian
 - Muhammad Bintang Saftar Arief
 - Rifdah Khairunnisa
