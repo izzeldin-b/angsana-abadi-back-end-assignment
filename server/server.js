@@ -31,7 +31,7 @@ app.get("/show-notes", (req, res) => {
     });
 });
 
-// Add New Note (dengan tanggal/waktu)
+// Add New Note (automatis dengan tanggal/waktu pada saat penambahan notes baru)
 app.post('/add-note', async (req, res) => {
     const q = "INSERT INTO notes (title, note, datetime) VALUES (?, ?,?)"; 
 
@@ -50,7 +50,7 @@ app.post('/add-note', async (req, res) => {
     });
 });
 
-// Edit Notes (update juga tanggal/waktu)
+// Edit Notes (update secara automatis tanggal/waktu ketika selesai update notes)
 app.put('/update-note/:id', async (req, res) => {
     const noteId = req.params.id;
     const { title, note } = req.body;
