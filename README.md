@@ -1,5 +1,5 @@
 # angsana-abadi-backend-assignment
-Tugas Back End (notes) Kelompok Angsana Abadi
+Tugas Back End (notes) Kelompok Angsana Abadi - Kelas Web C Morning
 
 **Anggota:**
 - Izzeldin Rayyan Bastian
